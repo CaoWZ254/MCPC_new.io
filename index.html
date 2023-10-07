@@ -25,17 +25,21 @@
      // Docsify Configuration
      window.$docsify = {
         loadSidebar: true,
-        markdown: {
-     smartypants: true,
-     renderer: {
-       link: function() {
-         // ...
-       }
-     }
-   }
      };
    </script>
-
+   
+   <script>
+      window.$docsify = {
+  markdown: {
+    smartypants: true,
+    renderer: {
+      link: function() {
+        // ...
+      }
+    }
+  }
+}
+   </script>
    <!-- Required -->
    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
