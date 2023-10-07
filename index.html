@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ch-cn">
+<html lang="ch-CN">
 <head>
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,22 +21,23 @@
 <body>
    <div id="app"></div>
 
-<script>
-  window.$docsify = {
-     // object
-     markdown: {
-       smartypants: true,
-       renderer: {
-         link: function () {
-           // ...
-         },
-       },
-     },
-   // load from _sidebar.md
-     loadSidebar: true,
-  };
-</script>
-   
+   <script>
+     // Docsify Configuration
+     window.$docsify = {
+         // load from _sidebar.md
+        loadSidebar: true,
+            // object
+        markdown: {
+          smartypants: true,
+          renderer: {
+            link: function () {
+              // ...
+            },
+          },
+        },
+     };
+   </script>
+
    <!-- Required -->
    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
