@@ -4,7 +4,7 @@
 * [团队介绍](团队介绍.md)
   * [史慧静](史慧静.md)
   * [张蕴晖](张蕴晖.md)
-  * [Grant Tao](Grant Tao.md)
+  * [Grant Tao](GrantTao.md)
   * [肖喜荣](肖喜荣.md)
   * [赵岩](赵岩.md)
   * [王彭彭](王彭彭.md)
